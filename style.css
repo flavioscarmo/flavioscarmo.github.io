@@ -1,0 +1,191 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+nav {
+    background-color: rgb(221, 221, 221);
+    width: 100%;
+}
+
+#fundo{
+    background-image: url("word2.png");
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 1920px;
+    height: 1150px;
+    min-width: 1920px;
+    max-width: 1920px;
+}
+.botoes {
+    border-radius: 200px;
+    border-width: 2px;
+    border-color: purple;
+    border-style: solid;
+    background-color: dimgrey;
+    width: 3px;
+    height: 16px;
+    position: absolute;
+}
+
+
+/* cidades */
+.comentarios {
+    position: absolute;
+    background-color: gainsboro;
+    
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#miami {
+    top: 759px;
+    left: 489px;
+}
+
+#losAngeles{
+    top: 718px;
+    left: 322px;
+}
+#novaYork {
+    top: 681px;
+    left: 527px;
+}
+#cNovaYork {
+    top: 681px;
+    left: 547px;
+}
+#roma {
+    top: 679px;
+    left: 898px;
+}
+#sydney {
+    top: 1039px;
+    left: 1494px;
+}
+#londres {
+    top: 611px;
+    left: 836px;
+}
+#cairo {
+    top: 743px;
+    left: 974px;
+}
+#rioDeJaneiro {
+    top: 973px;
+    left: 658px;
+}
+#shanghai {
+    top: 728px;
+    left: 1362px;
+}
+#buenosAires {
+    top: 1041px;
+    left: 586px;
+}
+
+
+
+/* cicades */
+#cMiami {
+    width: 111px;
+    height: 25px;
+
+    top: 735px;
+    left: 505px;
+}
+#cLosAngeles {
+    width: 306px;
+    height: 26px;
+
+    top: 693px;
+    left: 337px;
+}
+#cNovaYork {
+    width: 239px;
+    height: 26px;
+
+    top: 657px;
+    left: 543px;
+}
+#cRoma {
+    width: 94px;
+    height: 26px;
+
+    top: 655px;
+    left: 913px;
+}
+#cSydney {
+    width: 140px;
+    height: 26px;
+
+    top: 1015px;
+    left: 1510px;
+} 
+#cLondres {
+    width: 150px;
+    height: 26px;
+
+    top: 585px;
+    left: 851px;
+}
+#cCairo {
+    width: 94px;
+    height: 25px;
+
+    top: 720px;
+    left: 990px;
+}
+#cRioDeJaneiro {
+    width: 195px;
+    height: 26px;
+
+    top: 948px;
+    left: 673px;
+}
+#cShanghai {
+    width: 129px;
+    height: 26px;
+
+    top: 704px;
+    left: 1378px;
+}
+#cBuenosAires {
+    width: 188px;
+    height: 26px;
+
+    top: 1017px;
+    left: 602px;
+}
+
+/* hovers */
+.botoes:hover {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+
+
+
+
+@media screen and (min-width: 1680px) and (max-width: 1920px) {
+
+        
+    #fundo {
+        width: 1920px;
+    }  
+}
+
+
+
+    
