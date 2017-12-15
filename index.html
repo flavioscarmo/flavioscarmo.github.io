@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="Vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Travel World</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Walking in the world</title>
 </head>
 <body>
     <nav>
@@ -15,38 +17,472 @@
              <center><p>clique onde seus sonhos se tornaram realidade!</p></center>
           </div>
     </nav>
+
+
+    <!-- Botoes -->
     <div id="fundo">
-        <button class="botoes" id="miami"></button>
+        <button class="botoes" id="miami" data-toggle="modal" data-target="#modalMiami"></button>
             <div class="comentarios" id="cMiami">Miami, Florida</div>
+              <div class="seta" id="seta-miami"></div>
 
-        <button class="botoes" id="losAngeles"></button>
+        <button class="botoes" id="losAngeles" data-toggle="modal" data-target="#modalLosAngeles"></button>
             <div class="comentarios" id="cLosAngeles">Los Angeles, California, Estados Unidos</div>
+              <div class="seta" id="seta-losAngeles"></div>
 
-        <button class="botoes" id="novaYork"></button>
+        <button class="botoes" id="novaYork" data-toggle="modal" data-target="#modalNewYork"></button>
             <div class="comentarios" id="cNovaYork">New York, NY, Estados Unidos</div>
+              <div class="seta" id="seta-newYork"></div>  
 
-        <button class="botoes" id="roma"></button>
+        <button class="botoes" id="roma" data-toggle="modal" data-target="#modalRoma"></button>
             <div class="comentarios" id="cRoma">Roma, Italia</div>
-        <button class="botoes" id="sydney"></button>
+              <div class="seta" id="seta-roma"></div>
+
+        <button class="botoes" id="sydney" data-toggle="modal" data-target="#modalSydney"></button>
             <div class="comentarios" id="cSydney">Sydney, Australia</div>
+              <div class="seta" id="seta-sydney"></div>
 
-        <button class="botoes" id="londres"></button>
+        <button class="botoes" id="londres" data-toggle="modal" data-target="#modalLondres"></button>
             <div class="comentarios" id="cLondres">Londres, Inglaterra</div>
+              <div class="seta" id="seta-londres"></div>
 
-        <button class="botoes" id="cairo"></button>
+        <button class="botoes" id="cairo" data-toggle="modal" data-target="#modalCairo"></button>
             <div class="comentarios" id="cCairo">Cairo, Egito</div>
+              <div class="seta" id="seta-cairo"></div>
 
-        <button class="botoes" id="rioDeJaneiro"></button>
+        <button class="botoes" id="rioDeJaneiro" data-toggle="modal" data-target="#modalRioDeJaneiro"></button>
             <div class="comentarios" id="cRioDeJaneiro">Rio De Janeiro, RJ, Brasil</div>
+            <div class="seta" id="seta-rio"></div>
 
-        <button class="botoes" id="shanghai"></button>
+        <button class="botoes" id="shanghai" data-toggle="modal" data-target="#modalShanghai"></button>
             <div class="comentarios" id="cShanghai">Shanghai, China</div>
+              <div class="seta" id="seta-shanghai"></div>
 
-        <button class="botoes" id="buenosAires"></button>
+        <button class="botoes" id="buenosAires" data-toggle="modal" data-target="#modalBuenosAires"></button>
             <div class="comentarios" id="cBuenosAires">Buenos Aires, Argentina</div>
+              <div class="seta" id="seta-buenos"></div>
 
     </div>
-    
-    
+
+
+
+      <!-- Modais -->
+
+
+      <!-- New York -->
+      <div class="modal fade" id="modalNewYork" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">New York City</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div>
+                  <div>
+                        <img src="img/newYork2.jpg" class="imgsModal">
+                        <h2 class="margem">As experiências possíveis, em uma só cidade</h2>
+
+                            <p class="margem"> um horizonte conhecido em qualquer parte do mundo e 8,4 milhões de habitantes, 
+                            a cidade de Nova York oferece muita diversão e atrações de todos os tipos, 
+                            que vão desde lugares que você já viu na televisão e no cinema até tesouros ocultos que estão à sua espera. 
+                            Cada um dos cinco distritos – The Bronx, Brooklyn, Manhattan, Queens e Staten Island – tem um sabor característico, 
+                            e cada região mantém sua própria identidade. Com os calçadões para pedestres e o acesso a estações de metrô, 
+                            ônibus e táxis, é fácil conhecer todos os bairros. Seja na sua primeira ou centésima visita à cidade, 
+                            há sempre algo novo para fazer.</p>
+
+                            <h2  class="margem"><central>Principais Pontos turisticos</central></h2>
+
+                                <img src="img/newYork4.jpg" class="imgsModal">
+                                <h3 class="margem">Central Park</h3>
+                              <p  class="margem">Central Park é um grande parque no meio de Manhattan. 
+                                O parque fica entre a 59th Street e a 110th Street (e da Fifth Avenue até a 8th Avenue) 
+                                e foi construído artificialmente com alguns pedacinhos de natureza intocada. 
+                                O parque recebe por volta de 35 milhões de visitantes por ano e é o coração de Manhattan. No parque, 
+                                você vai encontrar uma enorme variedade de atrações e atividades. Seja inverno ou verão,
+                                 há sempre algo para fazer.
+                                </p>
+
+                                <img src="img/newYork1.jpg" class="imgsModal">
+                                <h3 class="margem">Times Square</h3>
+
+                                <p class="margem">A Times Square é um dos principais pontos turísticos de Nova York e marca o encontro da Broadway com a 7ª Avenida.
+                                   É difícil nunca ter ouvido falar ou visto uma imagem do lugar, que serve de palco para grandes eventos, 
+                                   cenário de dezenas de filmes, além de lendários pedidos de casamento estampados em seus telões. 
+                                   Nela acontece a famosa festa de réveillon da cidade, que atrai milhares de pessoas todos os anos. 
+                                  </p>
+
+                                  <img src="img/newYork5.jpg" class="imgsModal">
+
+                                  <h3 class="margem">Estátua da Liberdade</h3>
+
+                                  <p class="margem">Principal cartão-postal da cidade de Nova York, a Estátua da Liberdade também é uma das Sete Novas Maravilhas do mundo, 
+                                    o que a torna um ponto turístico bastante visitado e aclamado pelos turistas. Todos os anos, 
+                                    quase cinco milhões de pessoas a visitam e se encantam com a sua imponência, pois somando-se a altura da base e da estátua,
+                                     o monumento possui quase 100 metros, e pode ser visto de vários partes da cidade.</p>
+
+                                  <iframe  width="560" height="315" src="https://www.youtube.com/embed/faLlrnvrHK0" 
+                                  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                          
+                </div>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Los Angeles -->
+      <div class="modal fade" id="modalLosAngeles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Los Angeles</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                            <img src="img/losAngeles.jpg" class="imgsModal">
+                            <h1 class="margem">Um dos Lugares mais Multiculturais do Mundo</h1>
+
+                            <p>Quem poderia imaginar que o pequeno povoado de Nuestra Señora la Reina de Los Angeles, 
+                            fundado pelos mexicanos em 1781, se tornaria a segunda cidade mais populosa dos EUA? Los Angeles - ou apenas LA, 
+                            como chamam os angelinos - tem quase quatro milhões de habitantes.
+                             Metade da população é composta por imigrantes de todo o mundo, 
+                             que vivem em uma das regiões mais multiculturais do país. Com um povo 
+                             bem moderninho e misturado é que LA cresceu e se tornou um dos mais procurados
+                              destinos turísticos dos EUA.</p>
+
+                            <h2 class="margem">Principais Pontos Turisticos</h2>
+                              <img src="img/losAngeles3.png" class="imgsModal">
+
+                              <h3 class="margem">Calçada Da Fama</h3>
+
+                            <p class="margem">Situada na região de Hollywood, uma das mais frequentadas pelos visitantes da cidade, 
+                              ela é considerada atualmente um ponto de encontro de pessoas do mundo inteiro que vão até lá para
+                               tirarem fotos ao lado das estrelas dos seus astros preferidos. Hoje já estão estampados no chão da calçada
+                                cerca de 2500 estrelas; das quais se encontram celebridades do cinema, música, televisão, teatro e outras. 
+                                Para aqueles que estiverem visitando a região e quiserem participar da tradição de ter ao menos uma lembrança
+                                 ao lado da estrela do seu ator ou cantor preferido não deixe de ir até lá e curtir muito.</p>
+
+                                 <img src="img/losAngeles5.jpg" class="imgsModal">
+
+                                 <h3 class="margem">Museu de Cera Madame Tussauds em Los Angeles</h3>
+
+                                 <p class="margem">O segundo ponto turístico inesquecíveis para os visitantes de Los Angeles é o Museu Madame Tussauds. 
+                                   Situado nas proximidades da Calçada da Fama e do Dolby Theater, em Hollywood, ele é uma das atrações mais divertidas da cidade. 
+                                   Assim como a rua com as estrelas das celebridades o Museu Madame Tussauds também permite que você faça fotos incríveis com os seus
+                                    personagens da mídia favoritos, porém neste caso expostos no formato de bonecos de cera. 
+                                    O lugar é enorme e conta com todos os tipos de pessoas possíveis; indo desde figuras importantes da política, 
+                                    como por exemplo Obama, até astros musicais; como é o caso de Michael Jackson.
+                                     O legal de ir até lá é que além de poder ver as representações quase que perfeitas das celebridades 
+                                     você ainda utiliza os diversos objetos e utensílios para fazer fotos divertidas ao lado de cada um deles.</p>
+
+                                    <img src="img/losAngeles6.jpg" class="imgsModal">
+
+                                    <h3 class="margem">Parque Disneyland</h3>
+
+                                    <p class="margem">sem dúvida um dos locais mais incríveis para você que está indo fazer uma viagem em família ou com os amigos, 
+                                      o Parque da Disney em Los Angeles. Situado em uma cidadezinha a poucos km de Los Angeles, chamada Ananheim,
+                                       o parque é simplesmente um dos maiores e melhores lugares do mundo para você fazer com que os seus sonhos se realizem. 
+                                       Além dele oferecer brinquedos para todos os públicos e gostos é também um parque temático que conta com atrações de 
+                                       todos os filmes possíveis da Disney. Para aqueles que quiserem entretenimento e diversão para ninguém colocar defeit
+                                       o certamente o Parque da Disney é opção mais do que garantida.</p>
+
+                                       <img src="img/losAngeles7.jpg" class="imgsModal">
+
+                                    <h3 class="margem">Venice Beach</h3>
+
+                                    <p class="margem">Venice Beach. Envolvida pelo clima caloroso das cidades da Califórnia e público totalmente dedicado prática de esportes e atividades 
+                                      físicas a praia é reduto de coisas incríveis para você fazer e curtir muito por lá. 
+                                      Para aqueles que simplesmente quiserem tomar um banho de sol apreciando a maravilha do mar ela é totalmente propícia; 
+                                      assim como também é a alternativa certa para os amantes de surf, skate, vôlei e futebol de areia. Vale muito a pena ir
+                                       até lá e ter um dia super relaxante ao lado dos amigos ou da família em meio a uma atmosfera totalmente envolvente. </p>
+
+                                       <iframe width="560" height="315" src="https://www.youtube.com/embed/kTZ9upM6mr8" frameborder="0" gesture="media"
+                                        allow="encrypted-media" allowfullscreen></iframe>
+                            
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+    <!-- Miami -->
+<div class="modal fade" id="modalMiami" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Miami</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        opa
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Roma -->
+<div class="modal fade" id="modalRoma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Roma</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                  <h1 class="margem">Cidade Eterna</h1>
+
+                  <p class="margem">Roma é conhecida como a “Cidade Eterna” porque nela o tempo parece ter parado há séculos. 
+                    Seus monumentos e as ruínas de imponentes edifícios fazem com que um passeio por suas ruas se torne 
+                    uma viagem no tempo à época de máximo esplendor da capital.</p>
+
+                    <img src="img/roma1.jpg" class="imgsModal">
+
+                    <h2 class="margem">Principais Pontos Turisticos</h2>
+
+                    <img src="img/roma2.jpg" class="imgsModal">
+
+                    <h3 class="margem">Anfiteatro Flaviano</h3>
+                    
+                    <p class="margem">Um dos ícones arqueológicos – e turísticos – mais famosos do mundo, o Coliseu de Roma, o maior anfiteatro da cidade, 
+                      começou a ser construído no ano 72 d. C., pelo imperador Vespasiano, para ser inaugurado oito anos mais tarde por seu filho Tito.
+                      
+                      Viria a se tornar o grande símbolo do Império Romano com sua descomunal arena que chegou a comportar 70 mil pessoas.
+                      
+                      Elas tomavam assento para acompanhar lutas entre gladiadores, massacres entre animais ferozes, extermínios humanos e 
+                      até batalhas navais, viabilizadas por toneladas de litros de água importadas de aquedutos.
+                      
+                      Há séculos as bárbaras orgias não fazem mais parte da programação, mas uma visita ao Coliseum, uma das Sete maravilhas do Mundo, 
+                      continua a fazer o queixo de qualquer um cair.</p>
+
+                      <img src="img/roma3.jpg" class="imgsModal">
+
+                      <h3 class="margem">Vaticano</h3>
+
+                      <p class="margem">Epicentro do catolicismo, sede do papado e lugar do túmulo de São Pedro, a igreja mais visitada de Roma,
+                         cuja atual versão foi iniciada no século 16, é simplesmente a maior do mundo. Construída sobre as fundações de uma antiga 
+                         basílica do século 4, que por sua vez encontrava-se sobre as ruínas do Circo de Nero, a igreja supostamente encontra-se 
+                         junto ao lugar onde o discípulo Pedro foi crucificado de ponta cabeça no ano de 64. Em 324 Constantino aqui ergueu o primeiro 
+                         templo em homenagem sobre o primeiro dos papas, uma obra que ganho vulto durante os períodos da Renascença e Barroco.</p>
+
+                         <img src="img/roma4.jpg" class="imgsModal">
+                         
+                                               <h3 class="margem">Fórum Romano</h3>
+                         
+                                               <p class="margem">O Foro Romano está para Roma mais ou menos como a Acrópoles está para a cidade de Atenas.
+                                                  Centro da cidade durante o Império, o local reunia os edifícios nos quais funcionavam os principais órgãos burocráticos, 
+                                                  como os tribunais, além de estabelecimentos comerciais, templos religiosos e redutos boêmios.
+                                                  
+                                                  O que sobrou desses prédios ainda está lá, o que significa um farto cardápio de história e 
+                                                  arquitetura a ser degustado ao ar livre, ao pé do Monte Palatino. Entre as principais ruínas 
+                                                  se encontram o Arco de Tito, do ano 81 d.C., o Templo de Saturno, do século 5 a.C., e a Basílica Giulia,
+                                                   cujas origens remontam ao ano 54 a.C..
+                                                  
+                                                  Para uma visita produtiva, vale contratar um guia especializado ou fazer o tour com um livro ilustrativo.
+                                                   Do contrário, a experiência pode ser um tanto frustrante. Com imagens e informações precisas, contando 
+                                                   a história de cada ruína, elas deixarão de ser um monte de pedras empilhadas, tornando-se parte fundamental 
+                                                   da história ocidental.</p>
+
+                                                   <img src="img/roma5.jpg" class="imgsModal">
+                                                   
+                                                                         <h3 class="margem">Palatino</h3>
+                                                   
+                                                                         <p class="margem">Localizado a 40 metros de altura sobre o Fórum Romano, o Monte Palatino é a mais central das sete colinas de Roma e compõe uma das partes mais antigas da cidade.
+                                                                            Palatino, Domus Flávia
+                                                                            Domus Flávia no Monte Palatino
+                                                                           Palatino, Hipódromo de Domiciano
+                                                                           Hipódromo de Domiciano
+                                                                           Palatino, Casa de Augusto
+                                                                           Mosaicos da Casa de Augusto
+                                                                           O Monte Palatino é considerado o berço da capital italiana e acreditam que já era habitado no ano 1000 a.C. 
+                                                                           
+                                                                           Durante o período republicano, os cidadãos romanos pertencentes à classe alta se instalaram no Monte Palatino construindo luxuosos palácios, dos quais ainda se conservam importantes vestígios.</p>
+
+                         <iframe width="560" height="315" src="https://www.youtube.com/embed/O9xzMXKdQfM" frameborder="0"
+                          gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sydney -->
+      <div class="modal fade" id="modalSydney" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Sydney</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/sydney1.png" class="imgsModal">
+
+                    <h1>Qualidade de Vida </h1>
+
+                    <p>Sydney foi eleita como a cidade com a melhor qualidade de vida do mundo e morando aqui você entende o porquê.
+                       Segurança invejável, altos salários, nível educacional elevado, acesso à saúde e educação de qualidade gratuitas 
+                       e um baixíssimo nível de criminalidade contrastando com um alto nível de felicidade entre seus moradores, Sydney
+                        é o que hoje muitos diriam a melhor cidade do mundo para se viver.</p>
+
+                        <img src="img/sydney2.jpg" class="imgsModal">
+                    
+                        <h3 class="margem">Opera House</h3>
+                    
+                          <p class="margem">Com um programa variado e completo, a Opera House é um dos principais lugares para as apresentações musicais, 
+                            artísticas e performáticas da cidade. Para conhecer o funcionamento desse ícone, faça um passeio pelos bastidores.
+                             Esses passeios apresentam muitas informações, disponíveis em diversos idiomas, como japonês, mandarim e francês.</p>
+
+                             <img src="" class="imgsModal">
+                             
+                                  <h3 class="margem"></h3>
+                             
+                                    <p class="margem"></p>
+
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8zdQNV0-Dfw" frameborder="0"
+                                           gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+            
+                </div>
+              </div>
+            </div>
+          </div>
+
+    <!-- Londres -->
+    <div class="modal fade" id="modalLondres" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Londres</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="imgsModal">
+                    
+                                          <h3 class="margem"></h3>
+                    
+                                          <p class="margem"></p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- Cairo -->
+        <div class="modal fade" id="modalCairo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Cairo</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      opakkeee
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Rio De Janeiro -->
+
+              <div class="modal fade" id="modalRioDeJaneiro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Rio De Janeiro</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          opakked
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Shanghai -->
+
+                  <div class="modal fade" id="modalShanghai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Shanghai</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              opakkqwe
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                    <!-- Buenos Aires -->
+
+                    <div class="modal fade" id="modalBuenosAires" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLabel">Buenos Aires</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  opakkfg
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+<!-- Modais -->
+ 
+  <script src="vendor/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
+  <script src="vendor/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

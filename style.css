@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 nav {
-    background-color: rgb(221, 221, 221);
+
     width: 100%;
 }
 
@@ -32,12 +32,8 @@ nav {
 /* cidades */
 .comentarios {
     position: absolute;
-    background-color: gainsboro;
-    
+
     border-radius: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
 }
 
 #miami {
@@ -93,72 +89,193 @@ nav {
     width: 111px;
     height: 25px;
 
-    top: 735px;
-    left: 505px;
+    top: 733px;
+    left: 507px;
 }
 #cLosAngeles {
     width: 306px;
     height: 26px;
 
-    top: 693px;
-    left: 337px;
+    top: 692px;
+    left: 24px;
 }
 #cNovaYork {
     width: 239px;
     height: 26px;
 
     top: 657px;
-    left: 543px;
+    left: 547px;
 }
 #cRoma {
     width: 94px;
     height: 26px;
 
-    top: 655px;
-    left: 913px;
+    top: 696px;
+    left: 903px;
 }
 #cSydney {
     width: 140px;
     height: 26px;
 
-    top: 1015px;
-    left: 1510px;
+    top: 1013px;
+    left: 1515px;
 } 
 #cLondres {
     width: 150px;
     height: 26px;
 
     top: 585px;
-    left: 851px;
+    left: 691px;
 }
 #cCairo {
     width: 94px;
     height: 25px;
 
-    top: 720px;
-    left: 990px;
+    top: 757px;
+    left: 994px;
 }
 #cRioDeJaneiro {
     width: 195px;
     height: 26px;
 
-    top: 948px;
-    left: 673px;
+    top: 949px;
+    left: 679px;
 }
 #cShanghai {
     width: 129px;
     height: 26px;
-
-    top: 704px;
-    left: 1378px;
+    
+    top: 740px;
+    left: 1383px;
 }
 #cBuenosAires {
-    width: 188px;
+    width: 192px;
     height: 26px;
 
-    top: 1017px;
-    left: 602px;
+    top: 1056px;
+    left: 603px;
 }
+
+
+
+/* Setas */
+.seta {
+    position: absolute;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    transform: rotate(0deg);
+}
+
+#seta-rio{
+    width: 198px;
+    height: 12px;
+
+    top: 961px;
+    left: 675px;
+}
+#seta-miami{
+    width: 114px;
+    height: 12px;
+
+    top: 745px;
+    left: 503px;
+}
+#seta-newYork{
+    width:240px;
+    height: 12px;
+
+    top: 669px;
+    left: 543px;
+}
+#seta-losAngeles{
+    width: 311px;
+    height: 12px;
+
+    top: 704px;
+    left: 19px;
+}
+#seta-roma{
+    width: 120px;
+    height: 23px;
+
+    top: 697px;
+    left: 899px;
+}
+#seta-sydney{
+    width: 146px;
+    height: 15px;
+
+    top: 1024px;
+    left: 1510px;
+}
+#seta-londres{
+    width: 157px;
+    height: 15px;
+
+    top: 594px;
+    left: 687px;
+}
+#seta-cairo{
+    width: 98px;
+    height: 20px;
+    
+    top: 761px;
+    left: 990px;
+}
+#seta-shanghai{
+    width: 135px;
+    height: 19px;
+
+    top: 746px;
+    left: 1378px;
+}
+#seta-buenos{
+    width: 192px;
+    height: 20px;
+
+    top: 1061px;
+    left: 598px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.modal-content{
+    width: 1002px;
+}
+.modal-body{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.imgsModal{
+    width: 960px;
+    height: 500px;
+    margin: 20px;
+}
+
+.margem{
+    margin: 20px;
+    margin-top: 25px;
+}
+.modal-dialog {
+    max-width: 1000px;
+}
+iframe{
+    margin-left: 220px;
+    margin-top: 40px;
+}
+
+
+
 
 /* hovers */
 .botoes:hover {
@@ -173,10 +290,7 @@ nav {
     transition: all 200ms ease-in;
     transform: scale(1.5);
 }
-
-
-
-
+ 
 
 @media screen and (min-width: 1680px) and (max-width: 1920px) {
 
