@@ -1,13 +1,13 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="Vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="vendor/jquery.min.js"></script>
     <title>Walking in the world</title>
 </head>
 <body>
@@ -18,51 +18,49 @@
           </div>
     </nav>
 
+     
+<div id="fundo">
+  <button class="botoes" id="miami" data-toggle="modal" data-target="#modalMiami"></button>
+      <div class="comentarios" id="cMiami">Miami, Florida</div>
+        <div class="seta" id="seta-miami"></div>
 
-    <!-- Botoes -->
-    <div id="fundo">
-        <button class="botoes" id="miami" data-toggle="modal" data-target="#modalMiami"></button>
-            <div class="comentarios" id="cMiami">Miami, Florida</div>
-              <div class="seta" id="seta-miami"></div>
+  <button class="botoes" id="losAngeles" data-toggle="modal" data-target="#modalLosAngeles"></button>
+      <div class="comentarios" id="cLosAngeles">Los Angeles, California, Estados Unidos</div>
+        <div class="seta" id="seta-losAngeles"></div>
 
-        <button class="botoes" id="losAngeles" data-toggle="modal" data-target="#modalLosAngeles"></button>
-            <div class="comentarios" id="cLosAngeles">Los Angeles, California, Estados Unidos</div>
-              <div class="seta" id="seta-losAngeles"></div>
+  <button class="botoes" id="novaYork" data-toggle="modal" data-target="#modalNewYork"></button>
+      <div class="comentarios" id="cNovaYork">New York, NY, Estados Unidos</div>
+        <div class="seta" id="seta-newYork"></div>  
 
-        <button class="botoes" id="novaYork" data-toggle="modal" data-target="#modalNewYork"></button>
-            <div class="comentarios" id="cNovaYork">New York, NY, Estados Unidos</div>
-              <div class="seta" id="seta-newYork"></div>  
+  <button class="botoes" id="roma" data-toggle="modal" data-target="#modalRoma"></button>
+      <div class="comentarios" id="cRoma">Roma, Italia</div>
+        <div class="seta" id="seta-roma"></div>                                           
 
-        <button class="botoes" id="roma" data-toggle="modal" data-target="#modalRoma"></button>
-            <div class="comentarios" id="cRoma">Roma, Italia</div>
-              <div class="seta" id="seta-roma"></div>
+  <button class="botoes" id="sydney" data-toggle="modal" data-target="#modalSydney"></button>
+      <div class="comentarios" id="cSydney">Sydney, Australia</div>
+        <div class="seta" id="seta-sydney"></div>
 
-        <button class="botoes" id="sydney" data-toggle="modal" data-target="#modalSydney"></button>
-            <div class="comentarios" id="cSydney">Sydney, Australia</div>
-              <div class="seta" id="seta-sydney"></div>
+  <button class="botoes" id="londres" data-toggle="modal" data-target="#modalLondres"></button>
+      <div class="comentarios" id="cLondres">Londres, Inglaterra</div>
+        <div class="seta" id="seta-londres"></div>
 
-        <button class="botoes" id="londres" data-toggle="modal" data-target="#modalLondres"></button>
-            <div class="comentarios" id="cLondres">Londres, Inglaterra</div>
-              <div class="seta" id="seta-londres"></div>
+  <button class="botoes" id="cairo" data-toggle="modal" data-target="#modalCairo"></button>
+      <div class="comentarios" id="cCairo">Cairo, Egito</div>
+        <div class="seta" id="seta-cairo"></div>
 
-        <button class="botoes" id="cairo" data-toggle="modal" data-target="#modalCairo"></button>
-            <div class="comentarios" id="cCairo">Cairo, Egito</div>
-              <div class="seta" id="seta-cairo"></div>
+  <button class="botoes" id="rioDeJaneiro" data-toggle="modal" data-target="#modalRioDeJaneiro"></button>
+      <div class="comentarios" id="cRioDeJaneiro">Rio De Janeiro, RJ, Brasil</div>
+      <div class="seta" id="seta-rio"></div>
 
-        <button class="botoes" id="rioDeJaneiro" data-toggle="modal" data-target="#modalRioDeJaneiro"></button>
-            <div class="comentarios" id="cRioDeJaneiro">Rio De Janeiro, RJ, Brasil</div>
-            <div class="seta" id="seta-rio"></div>
+  <button class="botoes" id="shanghai" data-toggle="modal" data-target="#modalShanghai"></button>
+      <div class="comentarios" id="cShanghai">Shanghai, China</div>
+        <div class="seta" id="seta-shanghai"></div>
 
-        <button class="botoes" id="shanghai" data-toggle="modal" data-target="#modalShanghai"></button>
-            <div class="comentarios" id="cShanghai">Shanghai, China</div>
-              <div class="seta" id="seta-shanghai"></div>
+  <button class="botoes" id="buenosAires" data-toggle="modal" data-target="#modalBuenosAires"></button>
+      <div class="comentarios" id="cBuenosAires">Buenos Aires, Argentina</div>
+        <div class="seta" id="seta-buenos"></div>
 
-        <button class="botoes" id="buenosAires" data-toggle="modal" data-target="#modalBuenosAires"></button>
-            <div class="comentarios" id="cBuenosAires">Buenos Aires, Argentina</div>
-              <div class="seta" id="seta-buenos"></div>
-
-    </div>
-
+</div>
 
 
       <!-- Modais -->
@@ -350,11 +348,15 @@
                             artísticas e performáticas da cidade. Para conhecer o funcionamento desse ícone, faça um passeio pelos bastidores.
                              Esses passeios apresentam muitas informações, disponíveis em diversos idiomas, como japonês, mandarim e francês.</p>
 
-                             <img src="" class="imgsModal">
+                             <img src="img/sydney3.jpg" class="imgsModal">
                              
-                                  <h3 class="margem"></h3>
+                                  <h3 class="margem">Sydney Tower Eye</h3>
                              
-                                    <p class="margem"></p>
+                                    <p class="margem">A Torre de Sydney é um dos principais pontos turísticos da cidade e um 
+                                      lugar que recomendamos muito a visita! A torre tem um mirante panorâmico todo de vidro que
+                                       oferece uma vista de 360º; é o local perfeito para admirar toda a área metropolitana da maior
+                                        cidade da Austrália e tirar muitas fotos bonitas! Visite-a em um dia de céu bem aperto e poucas 
+                                        nuvens, porque assim a visibilidade será maior e você poderá ver mais áreas de Sydney. </p>
 
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/8zdQNV0-Dfw" frameborder="0"
                                            gesture="media" allow="encrypted-media" allowfullscreen></iframe>
@@ -480,9 +482,9 @@
                           </div>
 <!-- Modais -->
  
-  <script src="vendor/jquery.min.js"></script>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.8.2/umd/popper.js"></script>
-  <script src="Vendor/js/bootstrap.min.js"></script>
+  <script src="vendor/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
