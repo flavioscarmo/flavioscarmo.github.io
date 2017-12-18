@@ -20,14 +20,13 @@ nav {
 .botoes {
     border-radius: 200px;
     border-width: 2px;
-    border-color: purple;
+    border-color: black;
     border-style: solid;
-    background-color: dimgrey;
+    background-color: rgba(173, 113, 1, 0.92);
     width: 3px;
     height: 16px;
     position: absolute;
 }
-
 
 /* cidades */
 .comentarios {
